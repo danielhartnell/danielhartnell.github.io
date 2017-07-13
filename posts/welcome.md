@@ -8,7 +8,11 @@ be a way for me to document, store and share my notes as I work through problems
 or read through books.
 
 ```ruby
-puts "Thank you for reading"
+def welcome
+  puts "Thank you for reading"
+end
+
+welcome
 ```
 
 [Back](/index.md)
