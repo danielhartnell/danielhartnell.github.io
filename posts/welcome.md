@@ -7,7 +7,7 @@ with some greater community, I will simply store my notes here. Each post will
 be a way for me to document, store and share my notes as I work through problems
 or read through books.
 
-```
+```ruby
 puts "Thank you for reading"
 ```
 
