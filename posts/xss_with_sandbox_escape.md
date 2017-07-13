@@ -29,3 +29,5 @@ customer has a security breach
 * Filenames can’t have special characters like `<` or `>` so he looked elsewhere
 * Opening up the properties of a process will show the entire environment of the process, including environment variables
 * Setting an environment variable through a specially crafted request URL allows for persistent XSS
+
+[Back](./index.html)
