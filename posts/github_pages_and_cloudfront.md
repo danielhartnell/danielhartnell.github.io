@@ -21,8 +21,7 @@ post](http://strd6.com/2016/02/github-pages-custom-domain-with-ssltls/) from
 Daniel Moore which allowed us to quickly and easily front our GitHub Pages site
 with Cloudfront. The mistake we made was fairly simple. We were also following
 the GitHub documentation which asks for a CNAME file in your GitHub Pages
-repository. Without thinking about this, you migth be able to guess what will
-happen.
+repository.
 
 It appears that placing a CNAME file in your GitHub pages repository will result
 in an HTTP redirect to your custom domain when you request the github.io URL.
