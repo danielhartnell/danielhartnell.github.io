@@ -15,6 +15,7 @@ grow my knowledge around the subject.
 
 Action items:
 
+- Continue learning Go
 - Join Kubernetes Slack and join channels I'm interested in
 - Research and understand BGP
 - Review PRs for Kubernetes and associated discussions
