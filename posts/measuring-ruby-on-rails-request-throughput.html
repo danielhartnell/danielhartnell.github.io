@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://danielhartnell.github.io/assets/css/style.css">
+  <title>First</title>
+</head>
+<body>
+<nav><a href="../index.html">← Index</a></nav>
+<article>
+  <header>
+    <p class="meta">May 1, 2026  | Performance testing</p>
+    <h1>Measuring Ruby on Rails request throughput in AWS on EC2</h1>
+  </header>
+
+  <p>
+    Let's establish a baseline for what throughput we can get with a simple Ruby on Rails application on an EC2 instance in AWS. We can start with using Puma as the webserver.
+  </p>
+
+  <h2>Create a simple Rails application</h2>
+  <p>
+    Later we can evaluate performance in a Docker container. To start, we can remove as many variables as possible.
+  </p>
+
+  <pre><code>
+    $ rails new performant_webapp
+  </code></pre>
+</article>
+</body>
+</html>
