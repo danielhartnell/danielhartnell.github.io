@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>First</title>
+</head>
+<body>
+<nav><a href="../index.html">← Index</a></nav>
+<article>
+  <header>
+    <p class="meta">May 1, 2026  | Unlabeled</p>
+    <h1>First</h1>
+  </header>
+
+  <p>
+    Introduction would be written here.
+  </p>
+
+  <h2>A new section here</h2>
+  <p>
+    More content for this section.
+  </p>
+
+  <h2>Example of code block</h2>
+  <p>Create a <code>main.tf</code> and declare the AWS provider:</p>
+
+  <pre><code>terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = "us-east-1"
+}</code></pre>
+
+  <p class="note">
+    A note can be used like this.
+  </p>
+</article>
+</body>
+</html>
